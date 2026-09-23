@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Assistant Agent</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --card: #171a21;
+    --text: #e8e9ec;
+    --muted: #9aa0ac;
+    --accent: #5b8cff;
+    --border: #262a33;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 64px 24px 48px;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 32px;
+  }
+  .logo-dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--accent);
+    flex-shrink: 0;
+  }
+  h1 {
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: 600;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 28px;
+    margin-bottom: 20px;
+  }
+  .card h2 {
+    margin-top: 0;
+    font-size: 1.05rem;
+    color: var(--text);
+  }
+  .card p {
+    color: var(--muted);
+    margin-bottom: 0;
+  }
+  ul {
+    color: var(--muted);
+    padding-left: 20px;
+    margin: 12px 0 0;
+  }
+  li { margin-bottom: 6px; }
+  footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo-dot"></div>
+      <h1>Personal Assistant Agent</h1>
+    </header>
+
+    <div class="card">
+      <h2>About this app</h2>
+      <p>
+        Personal Assistant Agent is a personal productivity assistant that helps manage
+        tasks, notes, and email through a conversational chat interface. It is a
+        single-user application built and operated by its owner for personal use.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>What it does with your Google account</h2>
+      <ul>
+        <li>Reads and searches your Gmail messages to help you find and summarize email</li>
+        <li>Drafts and sends email replies on your behalf, only when you request it</li>
+        <li>Does not share your data with any third party</li>
+        <li>Does not use your data for advertising</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Contact</h2>
+      <p>
+        Questions about this app or how it uses your data? Contact
+        <a href="mailto:sundevil93@gmail.com">sundevil93@gmail.com</a>.
+      </p>
+    </div>
+
+    <footer>
+      See the <a href="privacy.html">Privacy Policy</a> for full details on data handling.
+    </footer>
+  </div>
+</body>
+</html>
