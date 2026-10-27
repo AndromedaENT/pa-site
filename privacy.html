@@ -78,7 +78,7 @@
       <div class="logo-dot"></div>
       <h1>Privacy Policy</h1>
     </header>
-    <p class="updated">Last updated: September 2026 · Personal Assistant Agent</p>
+    <p class="updated">Last updated: October 2026 · Personal Assistant Agent</p>
 
     <section>
       <h2>Overview</h2>
@@ -96,6 +96,7 @@
       <ul>
         <li>Gmail message content and metadata, for search, summarization, and reply drafting</li>
         <li>Basic Google account profile information (name and email address) used to identify the connected account</li>
+        <li>Google Drive files and Google Sheets data that the app itself creates, in a folder named 'PersAssistant'. The app can create, read, list and (for spreadsheets) append rows to these files at your request. It cannot see or change any other file in your Google Drive.</li>
       </ul>
     </section>
 
@@ -104,6 +105,8 @@
       <ul>
         <li>Email content is processed to answer the user's requests within the chat interface (e.g. "find the email about X" or "draft a reply to Y")</li>
         <li>Drafted or sent replies are only created when explicitly requested by the user</li>
+        <li>Drive and Sheets content is read or written only when you ask. Before changing an existing file, the assistant asks for your confirmation.</li>
+        <li>The app has no tool to replace or delete Drive files.</li>
         <li>No data is used to train third-party or public machine learning models</li>
         <li>No data is sold, rented, or shared with advertisers or data brokers</li>
       </ul>
